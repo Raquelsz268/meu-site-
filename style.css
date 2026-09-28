@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5eee8;
+    color: #3d3029;
+}
+
+header {
+    background-color: #6b4f43;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #6b4f43;
+    border-bottom: 2px solid #c8a994;
+    padding-bottom: 8px;
+}
+
+.inicio {
+    text-align: center;
+    background-color: #e8d7ca;
+}
+
+.inicio h2 {
+    border: none;
+    color: #4d382e;
+}
+
+.livros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.livro {
+    background-color: #f1e5dc;
+    padding: 15px;
+    width: calc(33.33% - 30px);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.livro h3 {
+    color: #6b4f43;
+}
+
+ul {
+    line-height: 2;
+}
+
+footer {
+    background-color: #6b4f43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+
+    .livro {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        width: 90%;
+    }
+}
